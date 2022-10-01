@@ -1,0 +1,23 @@
+{
+	"divisors": {
+		"prefix": "divisors",
+		"body": [
+		  "vi divisors;",
+		  "    for (int i = 1; i <= sqrt(n); i++) {",
+		  "        if (n % i == 0) {",
+		  " ",
+		  "            // check if divisors are equal",
+		  "            if (n / i == i)",
+		  "               divisors.pb(i);",
+		  "            else {",
+		  "              divisors.pb(i);",
+		  " ",
+		  "                // push the second divisor in the vector",
+		  "                divisors.pb(n / i);",
+		  "            }",
+		  "        }",
+		  "    }"
+		],
+		"description": "divisors"
+	  }
+}

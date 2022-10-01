@@ -1,0 +1,33 @@
+{
+  "prime divisors ": {
+    "prefix": "divisors_prime",
+    "body": [
+      "    vi p_divisor;",
+      "        ",
+      "while (n%2 == 0)",
+      "    {",
+      "       p_divisor.pb(2);",
+      "        n = n/2;",
+      "    }",
+      " ",
+      "    // n must be odd at this point.  So we can skip",
+      "    // one element (Note i = i +2)",
+      "    for (int i = 3; i <= sqrt(n); i = i+2)",
+      "    {",
+      "        // While i divides n, print i and divide n",
+      "        while (n%i == 0)",
+      "        {",
+      "            p_divisor.pb(i);",
+      "            n = n/i;",
+      "        }",
+      "    }",
+      " ",
+      "    // This condition is to handle the case when n",
+      "    // is a prime number greater than 2",
+      "    if (n > 2)",
+      "        p_divisor.pb(n);"
+    ],
+    "description": "prime divisors "
+  }
+  // }
+}

@@ -1,0 +1,19 @@
+{
+  "sieve of Eratosthenes": {
+    "prefix": "prime",
+    "body": [
+      "#define MAXP 1000005",
+      "vector<long long> prime_list;",
+      "vector<bool> fl(MAXP,false);",
+      "void construct_plist(){",
+      "  for(int i=2;i<MAXP;i++){",
+      "    if(fl[i]){continue;}",
+      "    prime_list.push_back(i);",
+      "    for(int j=2*i;j<MAXP;j+=i){fl[j]=true;}",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "sieve of Eratosthenes"
+  }
+}

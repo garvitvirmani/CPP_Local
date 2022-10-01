@@ -1,0 +1,7 @@
+{
+  "snippet-directions": {
+    "prefix": "directions",
+    "body": "const int d4i[4] = {-1, 0, 1, 0}, d4j[4] = {0, 1, 0, -1};\nconst char dc[4] = {'U', 'R', 'D', 'L'};\nconst int d8i[8] = {-1, -1, 0, 1, 1, 1, 0, -1}, d8j[8] = {0, 1, 1, 1, 0, -1, -1, -1};\nconst int dkx[8] = {-2, -1, 1, 2, 2, 1, -1, -2}, dky[8] = {-1, -2, -2, -1, 1, 2, 2, 1};",
+    "description": "directions"
+  }
+}

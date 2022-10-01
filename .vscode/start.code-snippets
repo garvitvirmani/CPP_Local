@@ -1,0 +1,24 @@
+{
+  "base template": {
+    "prefix": "start",
+    "body": [
+      "#include<bits/stdc++.h>",
+      "using namespace std;",
+      "typedef long long ll;",
+      "#ifndef ONLINE_JUDGE",
+      "#include \"DEBUG.h\"",
+      "#else",
+      "#define debug(x)",
+      "#endif  ",
+      "int main() {",
+      "ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);",
+      "  ll tt = 1,n=0,m=0,k=0,x=0;",
+      "     cin >> tt;",
+      "    while (tt--) {  ",
+      "        ",
+      "    }",
+      "return 0;}"
+    ],
+    "description": "base template"
+  }
+}
